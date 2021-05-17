@@ -1,0 +1,29 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+nav a {
+    text-decoration: none;
+}
+#fondoLemon {
+    background-image: url("../img/lemon-pie.png");
+    background-size: cover;
+    height: 480px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#fondoLemon * {
+    color: rgb(6, 11, 77);
+    font-weight: bold;
+    /* font-size: 1.5rem; */
+}
+
+h1 {
+    font-size: 4rem;
+}
+#fondoLemon p {
+    font-size: 2rem;
+}
+
